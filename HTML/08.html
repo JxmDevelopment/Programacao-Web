@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 08</title>
+</head>
+
+<body>
+    <h1>Formulário</h1>
+
+    <form>
+        <!--INPUT + Tipo + ID | Placeholder = Texto Dentro Do Input | Required = Campo Obrigatorio -->
+        <input type="text" id="campo_nome" placeholder="Digite seu nome aqui" required>
+        
+        <!--Caso Clique Na Legenda 'NOME' Ele Irá Clicar Dentro Do Campo-->
+        <label for="campo_nome">Nome:</label><br><br>
+
+        <!--EMAIL-->
+        <input type="email" id="campo_email" placeholder="Digite um email" required>
+        <label for="campo_email">Email:</label><br><br>
+
+        <!--SENHA-->
+        <input type="password" id="campo_senha" placeholder="Digite uma senha" required>
+        <label for="campo_senha">Senha:</label><br><br>
+
+        <h2>Animal de estimação</h2>
+
+        <!--TYPE RADIO-->
+        <input type="radio" id="dog" name="animal" value="Cachorro">
+        <label for="dog">Cachorro</label><br><br>
+
+        <!--CAT-->
+        <input type="radio" id="cat" name="animal" value="Gato">
+        <label for="cat">Gato</label><br><br>
+
+        <!--BIRD-->
+        <input type="radio" id="bird" name="animal" value="Passarinho">
+        <label for="bird">Passarinho</label><br><br>
+
+        <h2>O que você tem em casa?</h2>
+
+        <!--TYPE CHECKBOX-->
+        <input type="checkbox" id="item1" name="item1" value="TV">
+        <label for="item1">TV</label><br><br>
+
+        <!--GELADEIRA-->
+        <input type="checkbox" id="item2" name="item2" value="Geladeira">
+        <label for="item2">Geladeira</label><br><br>
+
+        <!--COMPUTADOR-->
+        <input type="checkbox" id="item3" name="item3" value="Computador">
+        <label for="item3">Computador</label><br>
+
+        <h2>Escolha uma cor:</h2>
+        <!-- CAMPO SELECT-->
+        <select name="cores">
+            <option selected disabled value="">Selecione uma cor</option>
+            <option value="vermelho">Vermelho</option>
+            <option value="azul">Azul</option>
+            <option value="amarelo">Amarelo</option>
+            <option value="verde">Verde</option>
+            <br><br>
+        </select>
+
+        <h2>Digite sua mensagem:</h2>
+        <!-- CAMPO TEXTAREA-->
+        <textarea required name="mensagem" placeholder="Digite aqui sua mensagem" rows="15" cols="55"></textarea>
+        <br>
+
+        <!-- CAMPO INPUT DO TYPE SUBMIT-->
+        <input type="submit" value="Enviar Formulário">
+    </form>
+</body>
+
+</html>
