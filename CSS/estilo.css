@@ -1,0 +1,640 @@
+/* ---------------- Aula 03 ---------------- */
+
+/* Seleciona e modifica todos os elementos
+{
+    padding:20px;
+}
+*/
+body
+{
+    background: rgb(0, 0, 0);
+}
+h1,h5
+{
+    color:blue;
+    font-size: 75px;
+    text-align: center;
+}
+
+/* ---------------- Aula 04 ---------------- */
+
+p
+{
+    color: white;
+    font-size: 30px;
+}
+
+/* Classe */
+.center
+{
+    text-align: center;
+}
+.cinza
+{
+    color: rgb(142, 145, 145);
+}
+
+/* ID */
+
+#par1 
+{
+    background-color: rgb(118, 154, 175);
+}
+
+/* ---------------- Aula 05 ---------------- */
+
+/* Apenas sobre a propriedade color */
+
+/* ---------------- Aula 06 ---------------- */
+
+.background
+{
+/* ../ Volta uma pasta */
+background-image: url("../background.jpg");
+height: 70px;
+/* background-repeat: no-repeat; */
+/* background-position: center; */
+background-size: cover; /* Esticou a imagem porém fez com que ela ficasse com o tamanho 'correto' */
+margin-bottom: 100px;
+
+/* Também funcionaria: 
+
+background: url("../background.jpg") no-repeat cover;
+
+*/
+}
+
+/* ---------------- Aula 07 ---------------- */
+
+h2
+{
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+
+    border-top: 5px solid red;
+    border-bottom: 5px solid blue;
+    border-left: 5px solid green;
+    border-right: 5px solid orange;
+    border-radius: 20px;
+
+    /* border: 1px solid white; - NORMAL */
+    /* border: 1px dote white; - PONTINHOS */
+    /* border: 1px dote white; - TRACINHOS */
+    /* border: 1px double white; - DUAS */
+    /* border: 1px groove white; - EFEITO 3D */
+}
+
+/* ---------------- Aula 08 ---------------- */
+
+h2
+{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 37%;
+    margin-right: 37%;
+    /* margin: top, bottom, left, right */
+}
+
+/* ---------------- Aula 09 ---------------- */
+
+h2
+{
+    /* padding = preenchimento ( margin ) dentro da borda */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* padding: top, bottom, left, right */
+    /* padding: 50px - Ele vai dar padding para todos os lados de 50px */
+}
+
+.proxpag
+{
+    color: red;
+    margin-left: 47%;
+    background: white;
+    padding: 3px;
+    /* Remove a marcação abaixo do texto */
+    text-decoration: none;
+    border-radius: 35%;
+}
+/* Quando o mouse tiver sobre */
+.proxpag:hover
+{
+    background: grey;
+}
+
+/* ---------------- Aula 10 ---------------- */
+
+.widhei
+{
+    /* Útil para adaptar a tela para dispositivos móveis */
+    /* max-width: 330px; */
+    text-align: center;
+    width: 330px;
+    height: 80px;
+    background: red;
+    margin-left: 35%;
+}
+
+/* ---------------- Aula 11 ---------------- */
+
+p
+{
+    text-align: center;
+    /* text-decoration: line-through; - RISCA AS PALAVRAS */
+    /* text-decoration: underline; - SUBLINA */
+    /* text-transform: uppercase; - TUDO MAIÚSCULO */
+    /* text-transform: lowercase; - TUDO MINÚSCULO */
+    /* text-transform: capitalize; - PRIMEIRA LETRA DE TODAS PALAVRA EM MAIÚSCULO */
+    /* text-indent: 50px; - PARÁGRAFO [ ESPAÇO ] NO INICIO DE UMA TAG P */
+    /* letter-spacing: 5px; - SOLTA ESPAÇO ENTRE CADA LETRA */
+    /* line-height: 0.8; - ESPAÇAMENTO ENTRE UM LINHA E A DE BAIXO */
+    /* word-spacing: 15px; - ESPAÇAMENTO ENTRE AS PALAVRAS */
+}
+
+/* ---------------- Aula 12 ---------------- */
+
+p
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold; /* 'NEGRITO' - TAMBÉM PODE USAR A QUANTIDADE EM PX EX: 100px */
+
+}
+
+/* ---------------- Aula 13 ---------------- */
+
+/* a = SE FOR LINK & TIVER A CLASSE BOTÃO 1 */
+
+a.botao1
+{
+    margin-left: 45%;
+    color: black;
+    background: cyan;
+    padding: 3px;
+    text-decoration: none;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+a.botao1:hover
+{
+    color: white;
+    background: green;
+    padding: 3px;
+    text-decoration: none;
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+}
+
+a.botao2
+{
+    margin-left: 45%;
+    text-decoration: none;
+    color: orange;
+    border: 3px double orangered;
+    padding: 3px;
+}
+a.botao2:hover
+{
+    margin-left: 45%;
+    text-decoration: underline;
+    color: red;
+    border: 3px double orange;
+    padding: 3px;
+    background: black;
+}
+a.botao3
+{
+    margin-left: 45%;
+    color: black;
+    padding: 3px;
+    text-decoration: none;
+}
+a.botao3:hover
+{
+    color: red;
+    border-bottom: 3px solid black;
+}
+a.botao4
+{
+    margin-left: 45%;
+    text-decoration: none;
+    color: blue;
+    font-size: 16px;
+    padding: 3px;
+}
+a.botao4:hover
+{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 3px;
+    margin-left: 44%;
+}
+a.botao5
+{
+    margin-left: 45%;
+    text-decoration: none;
+    padding: 3px;
+}
+a.botao5:hover
+{
+    cursor: wait;
+    text-decoration: underline;
+}
+
+/* ---------------- Aula 14 ---------------- */
+
+.borda
+{
+    border:1px solid red;
+}
+
+/* Mouse em cima, o parágrafo some */
+#p1:hover
+{
+    display: none;
+}
+/* Deixa o parágrafo invisível, porém ele permanesce utilizando o espaçamento dele */
+#p2
+{
+    visibility: hidden;
+}
+ul
+{
+    color: white;
+}
+/* Coloca um do lado do outro */
+li
+{
+    display: inline;
+}
+.azul
+{
+    background: blue;
+}
+.vermelho
+{
+    background: red;
+}
+.verde
+{
+    background: green;
+}
+/* inline-block = Coloca os items inline e permite que seja feita alteração do tipo heigth, weigth, etcs */
+
+.c1
+{
+    background: blue;
+    height: 150px;
+    width: 20%;
+    display: inline-block;
+}
+.c2
+{
+    background: red;
+    height: 150px;
+    width: 20%;
+    display: inline-block;
+}
+.c3
+{
+    background: green;
+    height: 150px;
+    width: 20%;
+    display: inline-block;
+}
+
+/* ---------------- Aula 15 ---------------- */
+
+.ex1
+{
+    color: white;
+    width: 900px;
+}
+.ex2
+{
+    color: white;
+    max-width: 1000px;
+}
+
+/* ---------------- Aula 16 ---------------- */
+
+.container
+{
+    color: white;
+    background: blue;
+    width: 100%;
+    height: 300px;
+    margin-left: -25px;
+    display: inline-block;
+    position: absolute;
+}
+.div1-15
+{
+    background: green;
+    display: inline-block;
+    width: 25%;
+    height: 25%;
+    text-align: center;
+    /* "Fixou a posição, e moveu 30% do topo" */
+    position: relative;
+    top: 30%;
+    /* z-index: 1,2,3,4 - Permite priorizar o posicionamento de um objeto quando está acima do outro. ( Precisa utilizar a propriedade position:relative )*/
+}
+.div2-15
+{
+    background: red;
+    display: inline-block;
+    width: 25%;
+    height: 25%;
+    text-align: center;
+    /* sticky faz com que ela fixe em uma posição, no caso no 'top:0' e permite que ela se mova dentro da div 'container' */
+    position: sticky;
+    top: 0;
+}
+.div3-15
+{
+    background: black;
+    display: inline-block;
+    width: 25%;
+    height: 25%;
+    text-align: center;
+    /* absolute ela fica relativa a div 'container''ancestral' - Porém tem que indicar na div 'container' que ela também é position: absolute */
+    position: absolute;
+    top: 10%;
+    right: 2%;
+}
+.whats
+{
+    background: greenyellow;
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    /* Fixou abaixo em 0, e esquerda 50% para ficar no meio da tela */
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+}
+
+/* ---------------- Aula 17 ---------------- */
+
+.aula-16
+{
+    background: rgb(174, 174, 214);
+    height: 150px;
+    overflow: scroll;
+    /* Mostra o conteúdo mesmo saindo para fora
+    overflow: visible;  */
+    /* Mostra apenas o que coube no quadro
+    overflow: hidden;  */
+    /* Crie uma rolagem para que seja possível visualizar tudo dentro do tamanho setado
+    overflow: scroll;  */
+    /* Crie uma rolagem caso for necessário
+    overflow: auto;  */
+}
+
+ /*
+overflow-y: hidden; - Remove a barra de rolagem para baixo
+overflow-x: hidden; - Remove a barra de rolagem para cima
+*/
+
+/* ---------------- Aula 18 ---------------- */
+
+.aula-17 img
+{
+    float: left;
+    margin-right: 20px;
+}
+li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+li a:hover
+{
+    color: rgb(157, 255, 0);
+    background: black;
+}
+/* Colocou o botão de login no canto superior direto */
+.login-17
+{
+    float: right;
+}
+.login-17 a:hover
+{
+    color: black;
+    background: blue;
+    padding: 9px;
+}
+
+/* ---------------- Aula 19 ---------------- */
+
+.img1
+{
+    opacity: 0.8;
+}
+
+.img2:hover
+{
+    opacity: 0.2;
+}
+
+.img3
+{
+        opacity: 0.4;
+}
+
+/* ---------------- Aula 20 ---------------- */
+
+.aula20
+{
+    background: white;
+}
+
+/* ---------------- Aula 21 ---------------- */
+
+/* SEQUÊNCIA DE PRIORIDADE DO CSS */
+
+#i21 /* 1 - Identificadores 'ID' */
+{
+    background: blue;
+}
+.c21 /* 2 - Classe */
+{
+    background: red;
+}
+h3 /* 3 - Seletor */
+{
+    background: yellow;
+}
+
+.c21 h3 /* A prioridade ainda será da classe citada anteriormente */
+{
+    background: orange;
+}
+
+/* ---------------- Aula 22 ---------------- */
+
+#meuid
+{
+    color:red;
+}
+.minhaclasse
+{
+    color:blue;
+}
+h4
+{
+    /* !important da prioridade para a propriedade */
+    color: aqua !important;
+    text-align: center;
+    font-size: 60px;
+}
+
+/* ---------------- Aula 23 ---------------- */
+
+#gradiente
+{
+    margin-left: 35%;
+    width: 500px;
+    height: 500px;
+    /* background-image: linear-gradient(cor1,cor2); */
+    /* background-image: linear-gradient(to right,red,orange,yellow,green,blue,indigo,violet); */
+    /* background-image: radial-gradient(red,orange); */
+    background-image: radial-gradient(red 20%,orange 80%);
+}
+
+/* ---------------- Aula 24 ---------------- */
+
+#aula24
+{
+    text-shadow: 2px 2px blue;
+}
+
+#caixa24
+{
+    width: 40%;
+    height: 600px;
+    background: white;
+    box-shadow: 5px 5px 15px chartreuse;
+}
+
+/* ---------------- Aula 25 ---------------- */
+.reduzido
+{
+    white-space: nowrap; /* Coloca a frase toda em uma linha */
+    overflow: hidden; /* Esconde o texto que sair da 'caixa' */
+    text-overflow: ellipsis; /* Coloca ... dizendo que a frase terá continuação */
+}
+
+#caixa24:hover .reduzido
+{
+    white-space: normal;
+}
+
+#caixa24
+{
+    height: auto;
+}
+
+/* ---------------- Aula 27.0 ---------------- */
+
+.flex-pai
+{
+    background: brown;
+    height: 200px;
+    display: flex;
+    /* flex-direction: column; Um embaixo do outro */
+    flex-direction: row; /* Um do lado do outro */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-flow: row; */
+    /* flex-flow: row wrap; */
+
+    /* justify-content: flex-start; */
+    /* justify-content: space-between;  - Espaço entre uma e outra div */
+    /* align-items: flex-end; */
+
+
+}
+
+@media screen and (max-width:600px)
+{
+    .flex-pai
+    {
+        flex-direction: column;
+    }
+}
+
+.flex-pai div
+{
+    background: goldenrod;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+/* ---------------- Aula 27.1 ---------------- */
+
+body
+{
+    margin:0;
+}
+
+.header
+{
+    background: rgb(100, 145, 33);
+    padding: 80px;
+    text-align: center;
+
+}
+
+.navbar
+{
+    display: flex;
+    justify-content: center;
+    background: white;
+    /* justify-content: flex-start; - Joga a barra pro começo */
+    /* justify-content: flex-end; - Joga a barra pro final */
+}
+
+.navbar a
+{
+    color: black;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover
+{
+    background: cornflowerblue;
+    color: white;
+    font-weight: bold;
+}
+
+.corpo
+{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card
+{
+    flex:48%;
+    background: pink;
+    height: 300px;
+    margin: 1%;
+
+}
+
+@media screen and (max-width:700px) /* Para ficar flexível 'no caso de celular' */
+{
+    .navbar
+    {
+        flex-direction: column;
+    }
+}
