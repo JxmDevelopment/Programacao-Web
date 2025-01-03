@@ -17,14 +17,13 @@ http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5fac52f142044f00078
 
 ### MENU FILMES ###
 
-#EXTINF:-1 tvg-logo="" group-title="FILMES",OP,OP2,OP3
-Main.mp4
-Main.mp4
+#EXTINF:-1 tvg-logo="" group-title="FILMES",TESTE
 Main.mp4
 
 ### MENU SERIES ###
 
 #EXTINF:-1 tvg-logo="https://imgur.com/AylPnF6.png" group-title="SERIES",S01 E01
+Cruela.avi
 
 ############### TV ###############
 
@@ -328,3 +327,8 @@ http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/62052d3b4eeb740007fbe1
 
 
 ############### SERIE ###############
+
+#EXTINF:-1 tvg-logo="https://imgur.com/AylPnF6.png" group-title="SERIES",S01 E01 420,720,1080
+Cruela.avi
+Cruela2.avi
+Cruela3.avi
