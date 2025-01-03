@@ -17,7 +17,9 @@ http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5fac52f142044f00078
 
 ### MENU FILMES ###
 
-#EXTINF:-1 tvg-logo="" group-title="FILMES",TESTE
+#EXTINF:-1 tvg-logo="" group-title="FILMES",OP,OP2,OP3
+Main.mp4
+Main.mp4
 Main.mp4
 
 ### MENU SERIES ###
